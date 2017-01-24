@@ -1,0 +1,19 @@
+h4 {
+	font-family: 'Rubik', sans-serif;
+	color: #f44242;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	color: #212326;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+	color: #212326;
+    text-decoration: none;
+}
+.responsive-image {
+  height: auto;
+  width: 100%;
+}
