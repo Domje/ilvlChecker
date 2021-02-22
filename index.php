@@ -51,7 +51,7 @@ if (isset($_POST['submit']))
 	$char_name = $_POST['charName'];
 	$player_realm = $_POST['playerRealm'];
 
-$url = 'https://eu.api.battle.net/wow/character/' . $player_realm . '/' .  $char_name  . '?fields=items&locale=en_GB&apikey=dk7krthseuxw2aemcrmcjh3trd9vt9ha';
+$url = 'https://eu.api.battle.net/wow/character/' . $player_realm . '/' .  $char_name  . '?fields=items&locale=en_GB&apikey=API_KEY_GOES_HERE';
 
 
 $json = file_get_contents($url);
